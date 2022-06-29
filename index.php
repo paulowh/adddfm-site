@@ -41,23 +41,10 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="d-flex align-items-center">Nova</h1>
-      </a>
 
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+    <?php require_once 'menu.php'; ?>
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <?php require_once 'menu.php'; ?>
-      </nav><!-- .navbar -->
-
-    </div>
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
@@ -65,13 +52,13 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-4">
-          <h2 data-aos="fade-up">Focus On What Matters</h2>
+          <h2 data-aos="fade-up">ADDDFM</h2>
           <blockquote data-aos="fade-up" data-aos-delay="100">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis cum recusandae eum laboriosam voluptatem repudiandae odio, vel exercitationem officiis provident minima. </p>
+            <p>Superação Tripla, as limitações do corpo, sociais e a a discriminação. </p>
           </blockquote>
           <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-            <a href="#about" class="btn-get-started">Get Started</a>
-            <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            <a href="#why-us" class="btn-get-started">Saiba Mais</a>
+            <a href="https://www.youtube.com/watch?v=BznQt3q9wYA" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Arrecadações</span></a>
           </div>
 
         </div>
@@ -86,7 +73,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Why Choose Us</h2>
+          <h2>Sobre a Gente</h2>
 
         </div>
 
@@ -100,15 +87,15 @@
 
                 <div class="swiper-slide">
                   <div class="item">
-                    <h3 class="mb-3">Let's grow your business together</h3>
-                    <h4 class="mb-3">Optio reiciendis accusantium iusto architecto at quia minima maiores quidem, dolorum.</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ipsam perferendis asperiores explicabo vel tempore velit totam, natus nesciunt accusantium dicta quod quibusdam ipsum maiores nobis non, eum. Ullam reiciendis dignissimos laborum aut, magni voluptatem velit doloribus quas sapiente optio.</p>
+                    <h3 class="mb-3">Projeto Criança Feliz</h3>
+                    <h4 class="mb-3">Arrecadação de brinquedos para distribuição.</h4>
+                    <p>Durante o ano sempre buscamos doadores que possam contribuir com esse nosso projeto de levar um brinquedo a uma criança que distribuimos sempre no mes de dezembro, esse projeto tambem envolve uma grande festa que fazemos na rua para as crianças com direito a brinquedos e atrações diversas.</p>
                   </div>
                 </div><!-- End slide item -->
 
                 <div class="swiper-slide">
                   <div class="item">
-                    <h3 class="mb-3">Unde perspiciatis ut repellat dolorem</h3>
+                    <h3 class="mb-3">Projeto S.O.S Mulher</h3>
                     <h4 class="mb-3">Amet cumque nam sed voluptas doloribus iusto. Dolorem eos aliquam quis.</h4>
                     <p>Dolorem quia fuga consectetur voluptatem. Earum consequatur nulla maxime necessitatibus cum accusamus. Voluptatem dolorem ut numquam dolorum delectus autem veritatis facilis. Et ea ut repellat ea. Facere est dolores fugiat dolor.</p>
                   </div>
@@ -116,7 +103,7 @@
 
                 <div class="swiper-slide">
                   <div class="item">
-                    <h3 class="mb-3">Aliquid non alias minus</h3>
+                    <h3 class="mb-3">Doações de Cestas Basicas</h3>
                     <h4 class="mb-3">Necessitatibus voluptatibus explicabo dolores a vitae voluptatum.</h4>
                     <p>Neque voluptates aut. Soluta aut perspiciatis porro deserunt. Voluptate ut itaque velit. Aut consectetur voluptatem aspernatur sequi sit laborum. Voluptas enim dolorum fugiat aut.</p>
                   </div>

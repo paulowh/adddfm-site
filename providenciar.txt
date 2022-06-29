@@ -1,0 +1,6 @@
+alguns outros requisitos
+time:
+ foto
+ redes socias
+ nome
+ posição adddfm

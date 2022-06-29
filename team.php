@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Nova Bootstrap Template - Team</title>
-  <meta content="" name="description">
+  <title>Adddfm - Time</title>
+  <meta content="sobre o time addddfm" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
@@ -41,23 +41,7 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="d-flex align-items-center">Nova</h1>
-      </a>
-
-      <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <?php require_once 'menu.php'; ?>
-      </nav><!-- .navbar -->
-
-    </div>
+    <?php require_once 'menu.php'; ?>
   </header><!-- End Header -->
 
   <main id="main">
@@ -66,10 +50,10 @@
     <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/team-header.jpg');">
       <div class="container position-relative d-flex flex-column align-items-center">
 
-        <h2>Team</h2>
+        <h2>Time</h2>
         <ol>
-          <li><a href="index.html">Home</a></li>
-          <li>Team</li>
+          <li><a href="index.php">Inicio</a></li>
+          <li>Time</li>
         </ol>
 
       </div>
@@ -80,7 +64,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Our Team</h2>
+          <h2>Nosso Time</h2>
 
         </div>
 
@@ -89,7 +73,25 @@
           <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="team-member">
               <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <img src="assets/img/team/dra-linda.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Dra. Linda</h4>
+                <span>Diretora</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/nana.jpg" class="img-fluid" alt="">
                 <div class="social">
                   <a href=""><i class="bi bi-twitter"></i></a>
                   <a href=""><i class="bi bi-facebook"></i></a>
@@ -98,8 +100,63 @@
                 </div>
               </div>
               <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
+                <h4>"Nana"</h4>
+                <span>Vice-Diretora</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/paulo.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Paulo Santos</h4>
+                <span>1º Tesoureiro</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/sandra.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Sandra</h4>
+                <span>Voluntaria</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Voluntario</h4>
+                <span>Voluntario</span>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -109,15 +166,15 @@
               <div class="member-img">
                 <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
+                <h4>Voluntario</h4>
+                <span>Voluntario</span>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -127,15 +184,15 @@
               <div class="member-img">
                 <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
+                <h4>Voluntario</h4>
+                <span>Voluntario</span>
               </div>
             </div>
           </div><!-- End Team Member -->
@@ -145,15 +202,15 @@
               <div class="member-img">
                 <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <!-- <a href=""><i class="bi bi-twitter"></i></a> -->
                   <a href=""><i class="bi bi-facebook"></i></a>
                   <a href=""><i class="bi bi-instagram"></i></a>
                   <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
+                <h4>Voluntario</h4>
+                <span>Voluntario</span>
               </div>
             </div>
           </div><!-- End Team Member -->
