@@ -1,7 +1,7 @@
 <?php
-require_once('../assets/PHPMailer/src/PHPMailer.php');
-require_once('../assets/PHPMailer/src/SMTP.php');
-require_once('../assets/PHPMailer/src/Exception.php');
+require_once('../assets/mail/PHPMailer.php');
+require_once('../assets/mail/SMTP.php');
+require_once('../assets/mail/Exception.php');
  
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
@@ -42,7 +42,8 @@ try {
  
 	if($mail->send()) {
 		echo 'Sua mensagem foi enviada. Obrigada!';
-        echo "<meta http-equiv='refresh' content='5;URL=/contact.php'>";
+
+        // echo "<meta http-equiv='refresh' content='5;URL=../contact.php'>";
 	} else {
 		echo 'Email nao enviado';
 	}
