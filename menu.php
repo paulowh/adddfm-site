@@ -3,7 +3,7 @@
   <a href="index.php" class="logo d-flex align-items-center">
     <!-- Uncomment the line below if you also wish to use an image logo -->
     <!-- <img src="assets/img/logo.png" alt=""> -->
-    <h1 class="d-flex align-items-center">ADDDFM</h1>
+    <h1 class="d-flex align-items-center" style="color: #29486a;">ADDDFM</h1>
   </a>
 
   <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
@@ -11,7 +11,7 @@
 
   <nav id="navbar" class="navbar">
     <ul>
-      <li><a href="index.php" class="active">Inicio</a></li>
+      <li><a href="index.php">Inicio</a></li>
       <li><a href="about.php">Sobre</a></li>
       <li><a href="services.php">Serviços</a></li>
       <li><a href="portfolio.php">Portfolio</a></li>

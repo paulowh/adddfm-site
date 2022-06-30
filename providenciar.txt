@@ -1,6 +1,33 @@
 alguns outros requisitos
-time:
- foto
+time: 
+ foto 600 x 600
  redes socias
  nome
  posição adddfm
+
+cores:
+    'AMARELO'
+    HEX : #f9ec55
+    RGB : 249, 236, 85
+    HSL  : 55, 93%, 65%
+    
+    'VERMELHO'
+    HEX : #c9202e
+    RGB : 201, 32, 46
+    HSL  : 355, 72%, 45%
+
+    'ROSA'
+    HEX : #c8186b
+    RGB : 200, 24, 107
+    HSL  : 331, 78%, 43%
+
+    'VERDE'
+    HEX : #098742
+    RGB : 9, 135, 66
+    HSL  : 147, 87%, 28%
+
+    'AZUL'
+    HEX : #076abe
+    RGB : 7, 106, 190
+    HSL  : 207, 92%, 38%
+

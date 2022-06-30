@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Nova Bootstrap Template - Index</title>
+  <title>Adddfm</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -54,7 +54,7 @@
         <div class="col-xl-4">
           <h2 data-aos="fade-up">ADDDFM</h2>
           <blockquote data-aos="fade-up" data-aos-delay="100">
-            <p>Superação Tripla, as limitações do corpo, sociais e a a discriminação. </p>
+            <strong><p>Superação Tripla, as limitações do corpo, sociais e a a discriminação. </p></strong>
           </blockquote>
           <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
             <a href="#why-us" class="btn-get-started">Saiba Mais</a>
@@ -79,7 +79,7 @@
 
         <div class="row g-0" data-aos="fade-up" data-aos-delay="200">
 
-          <div class="col-xl-5 img-bg" style="background-image: url('assets/img/why-us-bg.jpg')"></div>
+          <div class="col-xl-5 img-bg" style="background-image: url('assets/img/sobre-nos.png')"></div>
           <div class="col-xl-7 slides  position-relative">
 
             <div class="slides-1 swiper">
@@ -129,8 +129,8 @@
       </div>
     </section><!-- End Why Choose Us Section -->
 
-    <!-- ======= Our Services Section ======= -->
-    <section id="services-list" class="services-list">
+
+    <section id="services-list" class="services-list">  </section>  <!-- ======= Our Services Section ======= --
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
@@ -147,7 +147,7 @@
               <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
             </div>
           </div>
-          <!-- End Service Item -->
+          <!-- End Service Item --
 
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="200">
             <div class="icon flex-shrink-0"><i class="bi bi-card-checklist" style="color: #15a04a;"></i></div>
@@ -155,7 +155,7 @@
               <h4 class="title"><a href="#" class="stretched-link">Dolor Sitema</a></h4>
               <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
             </div>
-          </div><!-- End Service Item -->
+          </div><!-- End Service Item --
 
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="300">
             <div class="icon flex-shrink-0"><i class="bi bi-bar-chart" style="color: #d90769;"></i></div>
@@ -163,7 +163,7 @@
               <h4 class="title"><a href="#" class="stretched-link">Sed ut perspiciatis</a></h4>
               <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
             </div>
-          </div><!-- End Service Item -->
+          </div><!-- End Service Item --
 
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="400">
             <div class="icon flex-shrink-0"><i class="bi bi-binoculars" style="color: #15bfbc;"></i></div>
@@ -171,7 +171,7 @@
               <h4 class="title"><a href="#" class="stretched-link">Magni Dolores</a></h4>
               <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
             </div>
-          </div><!-- End Service Item -->
+          </div><!-- End Service Item --
 
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="500">
             <div class="icon flex-shrink-0"><i class="bi bi-brightness-high" style="color: #f5cf13;"></i></div>
@@ -179,7 +179,7 @@
               <h4 class="title"><a href="#" class="stretched-link">Nemo Enim</a></h4>
               <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
             </div>
-          </div><!-- End Service Item -->
+          </div><!-- End Service Item --
 
           <div class="col-lg-4 col-md-6 service-item d-flex" data-aos="fade-up" data-aos-delay="600">
             <div class="icon flex-shrink-0"><i class="bi bi-calendar4-week" style="color: #1335f5;"></i></div>
@@ -187,7 +187,7 @@
               <h4 class="title"><a href="#" class="stretched-link">Eiusmod Tempor</a></h4>
               <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
             </div>
-          </div><!-- End Service Item -->
+          </div><!-- End Service Item --
 
         </div>
 
@@ -207,8 +207,8 @@
 
       </div>
     </section><!-- End Call To Action Section -->
-
-    <!-- ======= Features Section ======= -->
+ <!-- 
+    <!-- ======= Features Section ======= --
     <section id="features" class="features">
 
       <div class="container" data-aos="fade-up">
@@ -223,56 +223,56 @@
                   <i class="ri-store-line" style="color: #ffbb2c;"></i>
                   <span>Easy Cart Features</span>
                 </div>
-              </div><!-- End Icon List Item-->
+              </div><!-- End Icon List Item--
 
               <div class="col-md-6">
                 <div class="icon-list d-flex">
                   <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
                   <span>Sit amet consectetur adipisicing</span>
                 </div>
-              </div><!-- End Icon List Item-->
+              </div><!-- End Icon List Item--
 
               <div class="col-md-6">
                 <div class="icon-list d-flex">
                   <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
                   <span>Ipsum Rerum Explicabo</span>
                 </div>
-              </div><!-- End Icon List Item-->
+              </div><!-- End Icon List Item--
 
               <div class="col-md-6">
                 <div class="icon-list d-flex">
                   <i class="ri-paint-brush-line" style="color: #e361ff;"></i>
                   <span>Easy Cart Features</span>
                 </div>
-              </div><!-- End Icon List Item-->
+              </div><!-- End Icon List Item--
 
               <div class="col-md-6">
                 <div class="icon-list d-flex">
                   <i class="ri-database-2-line" style="color: #47aeff;"></i>
                   <span>Easy Cart Features</span>
                 </div>
-              </div><!-- End Icon List Item-->
+              </div><!-- End Icon List Item--
 
               <div class="col-md-6">
                 <div class="icon-list d-flex">
                   <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
                   <span>Sit amet consectetur adipisicing</span>
                 </div>
-              </div><!-- End Icon List Item-->
+              </div><!-- End Icon List Item--
 
               <div class="col-md-6">
                 <div class="icon-list d-flex">
                   <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
                   <span>Ipsum Rerum Explicabo</span>
                 </div>
-              </div><!-- End Icon List Item-->
+              </div><!-- End Icon List Item--
 
               <div class="col-md-6">
                 <div class="icon-list d-flex">
                   <i class="ri-base-station-line" style="color: #ff5828;"></i>
                   <span>Easy Cart Features</span>
                 </div>
-              </div><!-- End Icon List Item-->
+              </div><!-- End Icon List Item--
             </div>
           </div>
           <div class="col-lg-5 position-relative" data-aos="fade-up" data-aos-delay="200">
@@ -297,8 +297,8 @@
         </div>
       </div>
 
-    </section><!-- End Features Section -->
-
+    </section><!-- End Features Section --
+    -->
     <!-- ======= Recent Blog Posts Section ======= -->
     <section id="recent-posts" class="recent-posts">
       <div class="container" data-aos="fade-up">

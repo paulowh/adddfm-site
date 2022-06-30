@@ -19,8 +19,8 @@
 /* Colors */
 :root {
   --color-default: #2b180d;
-  --color-primary: #56b8e6;
-  --color-secondary: #1b2f45;
+  --color-primary: #098742;
+  --color-secondary: #a79a13;
 }
 
 /* Smooth scroll behavior */
@@ -108,7 +108,7 @@ section {
 
 .breadcrumbs:before {
   content: "";
-  background-color: rgba(27, 47, 69, 0.7);
+  background-color: rgba(249, 236, 85, 0.36);
   position: absolute;
   inset: 0;
 }
@@ -255,7 +255,7 @@ section {
 }
 
 .header.sticked {
-  background: rgba(27, 47, 69, 0.9);
+  background: rgba(249, 236, 85, 0.9);
   padding: 12px 0;
 }
 
@@ -301,7 +301,8 @@ section {
     font-family: var(--font-default);
     font-size: 15px;
     font-weight: 500;
-    color: rgba(255, 255, 255, 0.6);
+    color: #29486a;
+    /* color: rgba(255, 255, 255, 0.6); */
     white-space: nowrap;
     transition: 0.3s;
   }
@@ -311,6 +312,7 @@ section {
     font-size: 12px;
     line-height: 0;
     margin-left: 5px;
+    
   }
 
   .navbar a:hover,
@@ -414,7 +416,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(27, 47, 69, 0.9);
+    background: rgba(249, 236, 85, 0.9);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -526,7 +528,7 @@ section {
 .hero:before {
   position: absolute;
   content: "";
-  background: rgba(27, 47, 69, 0.6);
+  background: rgba(249, 236, 85, 0.2);
   inset: 0;
 }
 
@@ -771,7 +773,7 @@ section {
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action {
-  background: linear-gradient(rgba(27, 47, 69, 0.8), rgba(27, 47, 69, 0.8)), url("../img/cta-bg.jpg") center center;
+  background: linear-gradient(rgba(249, 236, 85, 0.3), rgba(249, 236, 85, 0.3)), url("../img/bazar.jpeg") center center;
   background-size: cover;
   padding: 100px 0;
 }
@@ -1685,7 +1687,7 @@ section {
 }
 
 .blog .blog-details .meta-bottom a {
-  color: rgba(27, 47, 69, 0.8);
+  color: rgba(249, 236, 85, 0.3);
   transition: 0.3s;
 }
 
@@ -1913,7 +1915,7 @@ section {
 
 .blog .sidebar .tags ul a span {
   padding-left: 5px;
-  color: rgba(27, 47, 69, 0.8);
+  color: rgba(249, 236, 85, 0.3);
   font-size: 14px;
 }
 
@@ -1968,7 +1970,7 @@ section {
 .blog .comments .comment time {
   display: block;
   font-size: 14px;
-  color: rgba(27, 47, 69, 0.8);
+  color: rgba(249, 236, 85, 0.3);
   margin-bottom: 5px;
 }
 
@@ -2025,7 +2027,7 @@ section {
 }
 
 .blog .comments .reply-form .btn-primary:hover {
-  background-color: rgba(27, 47, 69, 0.8);
+  background-color: rgba(249, 236, 85, 0.3);
 }
 
 /*--------------------------------------------------------------
@@ -2097,7 +2099,7 @@ section {
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 1px;
-  color: var(--color-secondary);
+  color: var(--color-primary);
   font-family: var(--font-secondary);
   margin-top: 3px;
 }
@@ -2106,7 +2108,7 @@ section {
   font-size: 15px;
   margin-bottom: 0;
   font-family: var(--font-primary);
-  color: var(--color-secondary);
+  color: var(--color-default);
 }
 
 .footer .footer-content .social-links a {
@@ -2178,7 +2180,8 @@ section {
 
 .footer .footer-content .footer-contact p {
   line-height: 26px;
-  color: var(--color-secondary);
+  /* color: var(--color-primary); */
+  color: #31547c;
 }
 
 .footer .footer-legal {
